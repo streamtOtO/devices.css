@@ -1,7 +1,7 @@
-@import 'normalize';
+//@import 'normalize'; // Because bug with td vertical-aling:baseline for sprint;
 @import 'mixins';
 
-body{
+body {
 	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -28,13 +28,13 @@ html, body {
     *zoom: 1;
 }
 
-.marvel-device, .marvel-device div, *:before, *:after {
-	-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1);
-	-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	-moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	-o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-	transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-}
+// .marvel-device, .marvel-device div, *:before, *:after {
+// 	-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1);
+// 	-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+// 	-moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+// 	-o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+// 	transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+// }
 
 a{
 	cursor: pointer;
@@ -362,14 +362,14 @@ hr{
 	opacity: 1;
 }
 
-.marvel-device{
-	vertical-align: top;
-}
+// .marvel-device{
+// 	vertical-align: top;
+// }
 
-.marvel-device .screen{
-	text-align: left;
-	text-indent: -9999px;
-}
+// .marvel-device .screen{
+// 	text-align: left;
+// 	text-indent: -9999px;
+// }
 
 .side{
 	width: 360px;
@@ -394,23 +394,23 @@ code{
 	font-weight: bold;
 }
 
-.marvel-device .screen:before {
-	content: '';
-	display: block;
-	height: 34px;
-	display: inline-block;
-	text-align: left;
-	width: 96px;
-	position: absolute;
-	top: 50%;
-	margin-top: -17px;
-	left: 50%;
-	margin-left: -48px;
-	background-image: url(https://marvelapp.com/static/site_assets/images/logo.png);
-	background-position: 0px 0px;
-	background-repeat: no-repeat;
-	background-size: 96px 68px;
-}
+// .marvel-device .screen:before {
+// 	content: '';
+// 	display: block;
+// 	height: 34px;
+// 	display: inline-block;
+// 	text-align: left;
+// 	width: 96px;
+// 	position: absolute;
+// 	top: 50%;
+// 	margin-top: -17px;
+// 	left: 50%;
+// 	margin-left: -48px;
+// 	background-image: url(https://marvelapp.com/static/site_assets/images/logo.png);
+// 	background-position: 0px 0px;
+// 	background-repeat: no-repeat;
+// 	background-size: 96px 68px;
+// }
 
 .iphone5s .screen, .iphone6 .screen, .iphone6plus .screen {
 	background: rgb(226,228,228);
