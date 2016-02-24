@@ -16,12 +16,15 @@
 		@include border-radius(1px);
 		-webkit-box-shadow: 0 0 0 3px #111;
 		box-shadow: 0 0 0 3px #111;
-		overflow: auto; // add for scroll email
-		@include no-touch;
-		a {
-			pointer-events: none;
-			cursor: default;
-		 }
+		overflow: hidden; // hide from screen scroll
+		.scroll {
+			overflow: scroll;      //Scrollable
+			max-height: 100%;
+			margin-right: -100px;  //
+			padding-right: 100px;  // Hide scroll-y
+			margin-bottom: -100px; //
+			padding-bottom: 100px; // Hide scroll-x
+		}
 	}
 
 	.top-bar, .bottom-bar {

@@ -412,16 +412,16 @@ code{
 // 	background-size: 96px 68px;
 // }
 
-.iphone5s .screen, .iphone6 .screen, .iphone6plus .screen {
-	background: rgb(226,228,228);
-	background: -moz-linear-gradient(top, rgba(226,228,228,1) 0%, rgba(125,130,129,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,228,228,1)), color-stop(100%,rgba(125,130,129,1)));
-	background: -webkit-linear-gradient(top, rgba(226,228,228,1) 0%,rgba(125,130,129,1) 100%);
-	background: -o-linear-gradient(top, rgba(226,228,228,1) 0%,rgba(125,130,129,1) 100%);
-	background: -ms-linear-gradient(top, rgba(226,228,228,1) 0%,rgba(125,130,129,1) 100%);
-	background: linear-gradient(to bottom, rgba(226,228,228,1) 0%,rgba(125,130,129,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e4e4', endColorstr='#7d8281',GradientType=0 );
-}
+// .iphone5s .screen, .iphone6 .screen, .iphone6plus .screen {
+// 	background: rgb(226,228,228);
+// 	background: -moz-linear-gradient(top, rgba(226,228,228,1) 0%, rgba(125,130,129,1) 100%);
+// 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,228,228,1)), color-stop(100%,rgba(125,130,129,1)));
+// 	background: -webkit-linear-gradient(top, rgba(226,228,228,1) 0%,rgba(125,130,129,1) 100%);
+// 	background: -o-linear-gradient(top, rgba(226,228,228,1) 0%,rgba(125,130,129,1) 100%);
+// 	background: -ms-linear-gradient(top, rgba(226,228,228,1) 0%,rgba(125,130,129,1) 100%);
+// 	background: linear-gradient(to bottom, rgba(226,228,228,1) 0%,rgba(125,130,129,1) 100%);
+// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e4e4', endColorstr='#7d8281',GradientType=0 );
+// }
 
 .iphone5s.gold .screen, .iphone6.gold .screen, .iphone6plus.gold .screen{
 	background: rgb(241,226,208);
