@@ -1,7 +1,7 @@
 @import 'mixins';
 
 .marvel-device{
-	display: inline-block;
+	display: block; //from inline-block to block for center devices
 	position: relative;
 	box-sizing: content-box !important;
 
